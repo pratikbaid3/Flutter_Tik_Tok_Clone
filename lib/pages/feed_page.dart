@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:pinkvilla_test/controller/feed_api_controller.dart';
 import 'package:pinkvilla_test/model/feed_model.dart';
-import 'package:pinkvilla_test/widgets/bottom_bar.dart';
+import 'package:pinkvilla_test/widgets/bottom_nav_bar.dart';
 import 'package:pinkvilla_test/widgets/feed_card.dart';
 import 'package:video_player/video_player.dart';
 

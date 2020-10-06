@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pinkvilla_test/constants/tik_tok_icons_icons.dart';
 
 class BottomNavBar extends StatelessWidget {
   @override
@@ -6,17 +7,18 @@ class BottomNavBar extends StatelessWidget {
     return BottomNavigationBar(
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-          icon: Icon(Icons.home),
+          icon: Icon(TikTokIcons.home),
           title: Text('Home'),
         ),
         BottomNavigationBarItem(
-            icon: Icon(Icons.search), title: Text('Search')),
+            icon: Icon(TikTokIcons.search), title: Text('Search')),
         BottomNavigationBarItem(icon: Icon(Icons.add_circle), title: Text('')),
-        BottomNavigationBarItem(icon: Icon(Icons.chat), title: Text('Chat')),
         BottomNavigationBarItem(
-            icon: Icon(Icons.person_outline), title: Text('Me')),
+            icon: Icon(TikTokIcons.messages), title: Text('Chat')),
+        BottomNavigationBarItem(
+            icon: Icon(TikTokIcons.profile), title: Text('Me')),
       ],
-      currentIndex: 0,
+      currentIndex: 2,
       selectedItemColor: Colors.white,
       unselectedItemColor: Colors.white,
       backgroundColor: Colors.black,

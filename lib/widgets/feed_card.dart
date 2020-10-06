@@ -1,5 +1,6 @@
 import 'package:circular_profile_avatar/circular_profile_avatar.dart';
 import 'package:flutter/material.dart';
+import 'package:pinkvilla_test/constants/tik_tok_icons_icons.dart';
 import 'package:pinkvilla_test/model/feed_model.dart';
 import 'package:video_player/video_player.dart';
 
@@ -64,14 +65,13 @@ class _FeedCardState extends State<FeedCard> {
           },
         ),
         Container(
-          padding: EdgeInsets.symmetric(vertical: 30, horizontal: 30),
+          padding: EdgeInsets.symmetric(vertical: 30, horizontal: 25),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
                 child: Container(
-                  padding: EdgeInsets.only(right: 20),
                   width: double.infinity,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.end,
@@ -79,10 +79,10 @@ class _FeedCardState extends State<FeedCard> {
                     children: [
                       CircularProfileAvatar(
                         widget.feed.user.headshot,
-                        radius: 25,
+                        radius: 22,
                         backgroundColor: Colors.transparent,
                         borderColor: Colors.brown,
-                        elevation: 5.0,
+                        elevation: 0,
                         cacheImage: true,
                         showInitialTextAbovePicture: true,
                       ),
@@ -93,8 +93,8 @@ class _FeedCardState extends State<FeedCard> {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Icon(
-                            Icons.brightness_high,
-                            size: 40,
+                            TikTokIcons.heart,
+                            size: 35,
                             color: Colors.white,
                           ),
                           Text(
@@ -114,8 +114,8 @@ class _FeedCardState extends State<FeedCard> {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Icon(
-                            Icons.chat,
-                            size: 40,
+                            TikTokIcons.chat_bubble,
+                            size: 35,
                             color: Colors.white,
                           ),
                           Text(
@@ -135,8 +135,8 @@ class _FeedCardState extends State<FeedCard> {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Icon(
-                            Icons.share,
-                            size: 40,
+                            TikTokIcons.reply,
+                            size: 35,
                             color: Colors.white,
                           ),
                           Text(
