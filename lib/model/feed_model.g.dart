@@ -8,9 +8,9 @@ part of 'feed_model.dart';
 
 Feed _$FeedFromJson(Map<String, dynamic> json) {
   return Feed(
-    commentCount: json['comment-count'] as String,
-    likeCount: json['like-count'] as String,
-    shareCount: json['share-count'] as String,
+    commentCount: json['comment-count'] as int,
+    likeCount: json['like-count'] as int,
+    shareCount: json['share-count'] as int,
     title: json['title'] as String,
     url: json['url'] as String,
     user: json['user'] == null
@@ -21,9 +21,9 @@ Feed _$FeedFromJson(Map<String, dynamic> json) {
 
 Map<String, dynamic> _$FeedToJson(Feed instance) => <String, dynamic>{
       'url': instance.url,
-      'comment-count': instance.commentCount,
-      'like-count': instance.likeCount,
-      'share-count': instance.shareCount,
+      'commentCount': instance.commentCount,
+      'likeCount': instance.likeCount,
+      'shareCount': instance.shareCount,
       'title': instance.title,
       'user': instance.user?.toJson(),
     };

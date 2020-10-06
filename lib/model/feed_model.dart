@@ -5,9 +5,9 @@ part 'feed_model.g.dart';
 @JsonSerializable(explicitToJson: true)
 class Feed {
   String url;
-  String commentCount;
-  String likeCount;
-  String shareCount;
+  int commentCount;
+  int likeCount;
+  int shareCount;
   String title;
   User user;
 
