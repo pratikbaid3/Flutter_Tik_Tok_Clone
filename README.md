@@ -29,6 +29,7 @@ flutter run
 ```
 
 ## File tree
+```
 .
 |____.DS_Store
 |____constants
@@ -47,6 +48,7 @@ flutter run
 |____widgets
 | |____feed_card.dart
 | |____bottom_nav_bar.dart
+```
 
 ## Youtube video link
 <a href="https://www.youtube.com/watch?v=UrAjnnQv8w8&feature=youtu.be">Visit Youtube.com</a>
