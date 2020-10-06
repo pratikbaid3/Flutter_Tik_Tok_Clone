@@ -3,10 +3,8 @@
 VidTok is a TikTok clone made in flutter for PINKVILLA Internship test.
 
 
-## Screenshots
-
-<img src="images/Screenshot 2020-10-06 at 11.10.18 PM.png" width=300>  <img src="images/Screenshot 2020-10-06 at 11.10.02 PM.png" width=300>
-<img src="images/Screenshot 2020-10-06 at 11.10.32 PM.png" width=300>
+## GIF
+<img src="images/2020_10_06_21_58_44.gif" width="200"/>
 
 ## Usage
 
