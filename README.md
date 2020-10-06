@@ -1,16 +1,52 @@
-# pinkvilla_test
+# VIDTOK (TIKTOK CLONE)
 
-A new Flutter application.
+VidTok is a TikTok clone made in flutter for PINKVILLA Internship test.
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter application.
+1. Clone the repository from GitHub:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/pratikbaid3/pinkvilla_internship_test
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2. Navigate to project's root directory:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+cd pinkvilla_internship_test
+```
+
+3. Check for Flutter setup and connected devices:
+
+```bash
+flutter doctor
+```
+
+5. Run the app:
+
+```bash
+flutter run
+```
+
+## File tree
+.
+|____.DS_Store
+|____constants
+| |____tik_tok_icons_icons.dart
+| |____color.dart
+|____controller
+| |____feed_api_controller.dart
+|____main.dart
+|____model
+| |____user_model.g.dart
+| |____feed_model.dart
+| |____feed_model.g.dart
+| |____user_model.dart
+|____pages
+| |____feed_page.dart
+|____widgets
+| |____feed_card.dart
+| |____bottom_nav_bar.dart
+
+## Youtube video link
+<a href="https://www.youtube.com/watch?v=UrAjnnQv8w8&feature=youtu.be">Visit Youtube.com</a>

@@ -17,6 +17,7 @@ class _FeedPageState extends State<FeedPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Container(
         child: FutureBuilder<List<Feed>>(
           future: feedApiController.getDataFromServer(),
