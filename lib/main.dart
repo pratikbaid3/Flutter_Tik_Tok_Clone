@@ -1,8 +1,4 @@
-import 'dart:convert';
-
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:pinkvilla_test/model/feed_model.dart';
 import 'package:pinkvilla_test/pages/feed_page.dart';
 
 const NESTED_JSON =
@@ -13,7 +9,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
